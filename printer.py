@@ -4,6 +4,9 @@ def print_reversed(s):
         reversed.append(s[item])
     return ''.join(reversed)
 
+def print_twice(s):
+    s+=s
+    return s
 
 if __name__ == "__main__":
     s = input()
