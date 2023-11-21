@@ -2,11 +2,11 @@ def print_reversed(s):
     reversed = []
     for item in range(len(s)-1,-1,-1):
         reversed.append(s[item])
-    return ''.join(reversed)
+    print(''.join(reversed))
 
 def print_twice(s):
     s+=s
-    return s
+    print(s)
 
 def print_header(some_text):
     absa_ascii_art ="""
@@ -20,9 +20,9 @@ def print_header(some_text):
      
     """
     print(f"\n {absa_ascii_art} \nNow printing the some text reversed and twice")
-    print(f"Reversed: \n {some_text}:") 
+    print(f"Reversed: ") 
     print_reversed(f"{some_text}")
-    print(f"Twice: \n {some_text}:")
+    print(f"Twice: ")
     print_twice(f"{some_text}")
 
 if __name__ == "__main__":
