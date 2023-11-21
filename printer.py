@@ -26,6 +26,7 @@ def print_header(some_text):
     print_twice(f"{some_text}")
 
 if __name__ == "__main__":
-    s = input()
-    print_reversed(s)
-    print_twice(s)
+    s = input("Input string to manipulate: ")
+    #print_reversed(s)
+    #print_twice(s)
+    print_header(s)
